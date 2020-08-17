@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Study with me</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="app_info">Study with me</string>
+    <string name="app_description">
+ This is an application through which user can add the goals the user want to complete and start timer according to
+the study sessions it has some of the following steps:-"\n"
+"\n"
+first page:- "\n"
+
+The first or profile page will open after the clicking on to the application
+you can login with authenticated username and password. If you are not authenticated
+then filled the two edit text which says "Enter New or Existing User name" and "Password" the data will be saved in the
+sqlite database."\n"
+
+1) Enter New or Existing User name is a hint for the first edittext.In this there is three validation"\n"
+*The required field can not  be empty*"\n"
+*user can not  enter the characters more than 15*"\n"
+*can not enter any number*"\n"
+if the user enter any characters more than 15 the data will not saved and as a result the data will not get register or
+inserted in the database."\n"
+
+2) Enter password is the hint for the second edit text in the login page or profile page it consist of"\n"
+*The required field can not  be empty*"\n"
+*password is too weak try adding any alphabetical letter,number,no spaces and atleast 4 characters*"\n"
+
+if both the fields are entered according to the validation then the values are saved in the database.After clicking to
+the register and login users are directed to second page"\n"
+
+"\n"
+Second page:-"\n"
+
+1)After the authorized authentication we are in the main page,where the month,date and year is display at the top"\n"
+
+2)There is a button displaying "quick measuring" as text in capital.If we click on the button a stopwatch timer is
+displayed and we can start, stop or reset accordingly.It is used by the user if he/she wants to study for long hours with
+no time limit and to check how much do they study."\n"
+
+3)There is a edit text at center that display a hint "add items to your to-do list" we can add any subject and how much do we
+want to study for eg.android for 1 hour.The items get added in the list view by "save" button we can refresh it with
+"refresh" button, delete any particular record by  writing the name of the item and deleting all with "delete all" button.
+the list of the added items will be displayed in the listview at center."\n"
+
+4)Once the items are added then user can click on "goals" button we goes to a new activity in which there is edit text
+that takes the number in minutes only. we can set the number and start the timer the countdown timer will began.by click in
+on the reset button the timer get reset to its original time set by the user. user can also add notification if user wants to
+        user can click on "open time picker" a time picker dialog box will appear the display the time in hours and minutes also
+        according to the user time in smart phone the time is display in either AM or PM if user wants to get notified
+        after sometime according to time once done a notification will appear at that particular time telling to study
+        user can also cancel the notification"\n"
+
+5)on clicking the button on the text displaying "white music" we goes to a new activity displaying 3 white noise"\n"
+   First is "Rain""\n"
+   Second is "Busy Cafe""\n"
+   Third is "Campfire""\n"
+   The white noise help in concentrating to studying."\n"
+
+6)After clicking to the "Edit profile" button we are guided to new activity where there is two edit text in which validation is
+ same as the first page.It have 3 buttons where the first button "about application" is this documentation itself.On clicking
+to the second button displaying text "change password" user can change the password after adding the username which is
+authenticated and login successfully and password that user want to change.in the third button displaying "delete account"
+user can delete the account by adding user name and password. </string>
+    <string name="goal_set_time">Goal Time</string>
+    <string name="goal_set_time1">Goal_Time_logic goes here</string>
+    <string name="level_ABCD">Level</string>
+    <string name="level_ABCD1">Level_logic goes here</string>
+    <string name="Achievment_percentage">Achievement</string>
+    <string name="Achievment_percentage1">Achievement_logic</string>
+    <string name="Stat_day_time">Statistics</string>
+    <string name="daily_report">Daily Report</string>
+    <string name="imp_days">D-Days</string>
+    <string name="rank_publishing">Ranking</string>
+    <string name="a2set_new_goal">Set New Goal</string>
+    <string name="a2Setp_1">STEP 1</string>
+    <string name="a2_title">Title</string>
+    <string name="a2_goal_title">Goal Title</string>
+    <string name="a2_choose_color">Choose Color</string>
+    <string name="a2_next">NEXT</string>
+    <string name="a2_back">BACK</string>
+    <string name="a3_step2">STEP 2</string>
+    <string name="a3_daily_goal_time">Daily Goal Time</string>
+    <string name="a4_add">ADD</string>
+    <string name="a4_selectperiod">Select Period</string>
+    <string name="a4_start_end_date">Enter start date and end date</string>
+    <string name="a4_week">Day of Week</string>
+    <string name="a5_newgoaladded">New goal is added.</string>
+    <string name="a5_completed">Complete</string>
+    <string name="a5_setanothergoal">Set another goal</string>
+    <string name="Description">Touch your goals on the home screen"\n"and measure time and improve your focus level!</string>
+    <string name="a6_more">More</string>
+    <string name="a6_username">username</string>
+    <string name="a6_email">Email</string>
+    <string name="a6_btnprofile">Edit Profile</string>
+    <string name="a6_mygoal">My Goals</string>
+    <string name="a6_timeline">Timeline</string>
+    <string name="a6_dailyreport">Daily Report</string>
+    <string name="a6_calender">Calender</string>
+    <string name="a6_impdays">Imp days</string>
+    <string name="a6_studyshudule">Study Schedule</string>
+    <string name="a6_ranking">Ranking</string>
+    <string name="a7_editprofile">Edit Profile</string>
+    <string name="a7_email">Email</string>
+    <string name="a7_Username">User name</string>
+    <string name="a7_country">Country</string>
+    <string name="a7_occupation">Occupation</string>
+    <string name="a7_rankinginfo">Open my ranking information</string>
+    <string name="a7_showmyemail">Show my email</string>
+    <string name="a7_edit">Edit</string>
+    <string name="a7_deleteprofile"><u>Delete Profile</u></string>
+    <string name="a8_emailid">Email id</string>
+    <string name="a8_password">Password</string>
+    <string name="a8_username">Enter New or Existing User name</string>
+    <string name="a8_Profile">Profile</string>
+    <string name="a8_saveprofile">Register</string>
+    <string name="a8_Login">Login</string>
+    <string name="a8_update">Change Password</string>
+    <string name="a8_Delete">Delete Account</string>
+    <string name="a3_goaltime">Gaal time</string>
+    <string name="a4_todayonly">Today only</string>
+    <string name="a4_tomorrowonly">Tomorrow only</string>
+    <string name="a4_notimelimit">No Time Limit</string>
+    <string name="a4_selectall">Select all</string>
+    <string name="a4_desc">Day of the week selected can not be edited</string>
+    <string name="a4_startenddate">Start date and End date</string>
+    <string name="a5_goaltitle">\"Goal Title\"</string>
+    <string name="a6_help">Help?</string>
+    <string name="a4_step3">STEP 3</string>
+    <string name="a9_goaltimer">Goal timer</string>
+    <string name="a9_break">Break</string>
+    <string name="a9_focuslevel">Focus Level</string>
+    <string name="a9_recentfocustime">Recent Focus Time</string>
+    <string name="a9_earlyattainment">Early Attainment</string>
+    <string name="a9_stopwatchtimer">Stopwatch/Timer</string>
+    <string name="a9_whitenoise">white noise</string>
+    <string name="a10_mygoals">My Goals</string>
+    <string name="a10_goalsinprogress">Goals in Progress</string>
+    <string name="a10_completedgoals">Completed Goals</string>
+    <string name="a10_desc">There is no goals in progress "\n" How about making plans?</string>
+    <string name="a11_timeline">Timeline</string>
+    <string name="a11_desc">There is no measure time.</string>
+    <string name="a11_curentdateandtime">Current date and time by coding</string>
+    <string name="a12_dailyreport">Daily Report</string>
+    <string name="a12_desc">Current date and time by coding</string>
+    <string name="a12_compareyessterday">Compare with "\n" yesterday</string>
+    <string name="a12_yesterday">Yesterday</string>
+    <string name="a12_Focus_level">Focus Level</string>
+    <string name="a12_break">Break</string>
+    <string name="a12_Average">Average</string>
+    <string name="a12_ranking">Ranking</string>
+    <string name="a13_calender">Calender</string>
+    <string name="a13_currentdaymonthyear">Current Day/month/year</string>
+    <string name="a14_impdays">Important Days</string>
+    <string name="a14_desc">Set up your important days</string>
+    <string name="a14btn_add">Add</string>
+    <string name="a15_Studyschedule">Study Schedule</string>
+    <string name="a15a1addsubject">Add subject</string>
+    <string name="a15a1subname">Enter name of subject</string>
+    <string name="a15a1subname2">Name of subject</string>
+    <string name="a15a1color">Choose Color</string>
+    <string name="a15a1week">Day of week</string>
+    <string name="a15a1cancle">Cancel</string>
+    <string name="a15a1save">Save</string>
+    <string name="a16ranking">Ranking</string>
+    <string name="a16desc">Current day and date</string>
+</resources>
