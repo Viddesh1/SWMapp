@@ -1,4 +1,4 @@
-# SWMproject
+# SWMapp
 This is a simple application that i created.
 
 # SWM app-icon and Register and  Login Activity
